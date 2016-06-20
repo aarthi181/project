@@ -1,0 +1,36 @@
+
+h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+	text-decoration: none;
+	font: bold Optima, Arial, sans-serif;
+}
+h1 a {
+	font: bold italic 0.458333333333333em Optima, Arial, sans-serif;
+	color: #747474; /*dark grey*/
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+	a:link, a:visited {text-decoration: none}
+	a:focus, a:hover, a:active {text-decoration:none;}
+	img.home_pics {border: none}
+	p.image_links {white-space:nowrap}
+p a {
+	font-weight: bold;
+	color: #2F4F4;
+}
+#main ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: square;
+}
+#main li {
+	float: left;
+}
+	div.main {
+		top: 40px;
+		background-color: #ffffff;
+		border-radius: 0 0 5px 5px;
+		padding: 0 50px 10px 20px;
+		margin: 10px;
+		}
