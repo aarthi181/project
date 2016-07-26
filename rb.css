@@ -1,0 +1,16 @@
+div {
+	float: left;
+	margin: 10px;
+	height: 75px;
+	width: 75px;
+	background: #f00;
+	border: 1px solid #000
+}
+div.nobars {
+	resize: both;
+	overflow:hidden}
+
+div.max {
+	max-height: 150px;
+	max-width: 150px
+}

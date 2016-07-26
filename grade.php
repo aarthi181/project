@@ -1,15 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" type="text/css" href="css/quiz.css" />
+<html>
+<head><title>#1 Quiz Results</title>
+	<?php include 'header.php'; ?>
+	<link rel="stylesheet" type="text/css" href="quiz.css" />
 </head>
 
 <body>
-
-	<div id="page-wrap">
-		
+<div class="nav_links">
+<a href="modules.php">Modules >></a><a href="mod_1.php">Module 1 >></a><a href="mod_1_quiz.php">Quiz >></a><a href="grade.php">Results</a>
+</div>
+	<div class="main">
         <?php
             
             $answer1 = $_POST['question-1-answers'];
@@ -23,7 +22,6 @@
             if ($answer3 == "C") { $totalCorrect++; }
             
             echo "<div id='results'>$totalCorrect / 3 correct</div>";
-            
         ?>
 	
 	</div>
@@ -39,5 +37,7 @@
 	</script>
 
 </body>
-
+<footer>
+<?php include 'footer.php'; ?>
+</footer>
 </html>

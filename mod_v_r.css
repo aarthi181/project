@@ -1,0 +1,275 @@
+/* layouts for main module, VARK, resources pages */
+/* also includes individual pages in these categories */
+/* button layouts for the main module, VARK and resources pages */
+
+/*all pages formatting*/
+div.nav_links a {
+	font-size: 1.25em;
+	color: blue;
+	padding: 0px 5px 0px 2.5px;
+}
+h1 {
+	font-size: 2em;
+	font: bold Optima, Arial, sans-serif;
+	margin: 0px;
+	border: 0px;
+	padding-top: 10px;
+}
+h2 {
+	color: purple;
+	font-size: 1.5em;
+}
+h3 {
+	color: orange;
+	font-size: 1em;
+}
+h4 {
+	color: pink;
+	font-size: 0.5em;
+}
+div.main p a {
+	font-weight: bold;
+	color: #2F4F4;
+}
+div.main ul {
+	list-style-type: circle;
+}
+div.main li {
+	padding: 5px;
+}
+div.main {
+	top: 40px;
+	border-radius: 0 0 5px 10px;
+	margin: 10px;
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+div.main img {
+	padding: 5px;
+	float: center;
+}
+
+/***********************************************************Main pages*/
+
+div.module_buttons, div.VARK_buttons, div.resource_buttons, div.mini_VARK_buttons, div.tiy_buttons {
+	padding-top: 10px;
+}
+
+/*Modules*/
+div.module_buttons button {
+	top: 20px;
+	border-radius: 5px;
+	color: #546E7A;
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+	display: inline-block;
+	font-size: 175%;
+	background-color: #e4e0f7;
+}
+div.module_buttons button:hover {
+	background-color: #B0BEC5;
+	cursor: pointer;
+	color: white;
+	
+}
+div.text p {
+	border: 10px;
+	border-color: black;
+	border-radius: 5px;
+	color: black;
+	width: 250px;
+	height: 50px;
+	margin: 5px 5px 0px 5px;
+	display: inline-block;
+	text-align:center;
+}
+
+
+/*VARK page*/
+div.VARK_buttons button {
+	top: 20px;
+	border-radius: 5px;
+	color: #546E7A;
+	width: 300px;
+	height: 200px;
+	margin: 0 10 0 10;
+	display: inline-block;
+	font-size: 175%;
+	background-color: #e4e0f7;
+}
+div.VARK_buttons button:hover {
+	background-color: #B0BEC5;
+	cursor: pointer;
+	color: white;
+}
+div.VARK_text p {
+	color: black;
+	width: 300px;
+	margin: 0 10 0 10;
+	display: inline-block;
+	text-align: left;
+}
+div.ques h2 a {
+	padding: 0px 5px 0px 5px;
+	text-decoration: none;
+	font: bold italic 2em Optima, Arial, sans-serif;
+	color: #546E7A; /*dark grey*/
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+
+/*Resource PAGE*/
+div.resources_buttons button {
+	top: 20px;
+	border-radius: 5px;
+	color: #546E7A;
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+	font-size: 175%;
+	background-color: #e4e0f7;
+}
+div.resources_buttons button:hover {
+	background-color: #B0BEC5;
+	cursor: pointer;
+	color: white;
+}
+
+/*Try it yourself page*/
+
+div.tiy_buttons button {
+	top: 20px;
+	border-radius: 5px;
+	color: #546E7A;
+	width: 500px;
+	height: 250px;
+	margin: 10px;
+	display: inline-block;
+	font-size: 175%;
+	background-color: #e4e0f7;
+
+}
+div.tiy_buttons button:hover {
+	background-color: #B0BEC5;
+	cursor: pointer;
+	color: white;
+}
+div.tiy_text p {
+	color: black;
+	width: 500px;
+	margin: 10px;
+	display: inline-block;
+	text-align:center;
+}
+
+/*****************************************************individual pages*/
+
+/* Module 1,2,3,4,5 pages */
+
+div.mini_VARK_buttons {
+	top: 275px;
+	right: 10px;
+	padding: 20px;
+	overflow: hidden;
+	position: absolute;
+	height: 120%;
+}
+
+div.mini_VARK_buttons button {
+	border-radius: 5px;
+	color: #546E7A;
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	display: inline-block;
+	font-size: 200%;
+	background-color: #e4e0f7;
+	float: center;
+}
+
+div.mini_VARK_buttons button:hover {
+	background-color: #B0BEC5;
+	cursor: pointer;
+	color: white;
+}
+
+div.mini_VARK_buttons button.v {
+	background-color: #B0BEC5;
+	color: white;
+}
+
+div.mini_VARK_buttons button.a {
+	background-color: #B0BEC5;
+	color: white;
+}
+
+div.mini_VARK_buttons button.r {
+	background-color: #B0BEC5;
+	color: white;
+}
+
+div.mini_VARK_buttons button.k {
+	background-color: #B0BEC5;
+	color: white;
+}
+
+p.quiz_link {
+	float: center;
+	padding: 20px;
+}
+p.quiz_link a {
+	color: blue;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+/* V,A,R,K,strategies pages */
+div.learners {
+	width: 400px;
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+	height: auto;
+}
+div.learners p a {
+	font-weight: bold;
+	color: #2F4F4;
+}
+div.learners ul {
+	list-style-type: circle;
+}
+div.learners li {
+	padding: 5px;
+}
+
+/* characteristics and tips formatting */
+div.c, div.t {
+	border: 2px solid black;
+	padding: 0px 10px 5px 10px;
+	margin: 5px 0px 5px 0px;
+}
+div.c h2, div.t h2 {
+	text-align: center;
+}
+
+/* Software Development Resources buttons */
+div.module_buttons_s button {
+	border-radius: 5px;
+	color: #546E7A;
+	width: 125px;
+	height: 125px;
+	margin: 5px;
+	display: inline-block;
+	font-size: 150%;
+	background-color: #e4e0f7;
+}
+div.module_buttons_s button:hover {
+	background-color: #B0BEC5;
+	cursor: pointer;
+	color: white;
+}
+

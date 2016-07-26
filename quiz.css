@@ -1,23 +1,25 @@
-*					{ margin: 0; padding: 0; }
-body				{ font: 14px Georgia, serif; }
-
-#page-wrap		    { width: 500px; margin: 0 auto; }
-
-h1  { margin: 25px 0; font: 14px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
-
-#quiz input {
-    vertical-align: middle;
+div.nav_links a {
+	font-size: 1.25em;
+	color: blue;
+	padding: 0px 5px 0px 2.5px;
 }
-
+#quiz h1  {
+	margin: 25px 0;
+	font: 14px Georgia, Serif;
+	text-transform: uppercase;
+	letter-spacing: 3px; 
+}
+div.main {
+	top: 40px;
+	border-radius: 0 0 5px 10px;
+	margin: 10px;
+}
 #quiz ol {
    margin: 0 0 10px 20px;
 }
 
 #quiz ol li {
    margin: 0 0 20px 0;
-}
-
-#quiz ol li div {
    padding: 4px 0;
 }
 

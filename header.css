@@ -1,7 +1,3 @@
-body {background-color: #f8f8ff; /*light grey*/
-color: #2C2C2C; /*darker grey*/
-font: normal 100% Cambria, Georgia, serif;
-}
 	a:link, a:visited {text-decoration: none;}
 	a:focus, a:hover, a:active {text-decoration:none;}
 div.line {
@@ -12,11 +8,11 @@ div.line {
 }
 div.utility { 
 		top: 10px;
-		background: linear-gradient(to bottom right, #f8f8ff 0%, #1e144e 100%);
+		background: linear-gradient(to bottom right, #f8f8ff 0%, #263238 100%);
 		margin-bottom: 5px;
 		height: 190px;
 	}
-	p.login, .register {
+	div.utility p.login, .register {
 		position: absolute;
 		top: 0px;
 		padding: 12px 14px;
@@ -27,13 +23,13 @@ div.utility {
 		display: block;
 		min-height: 20px;
 	}
-	p.login, a {
+	div.utility p.login, a {
 		color: #120c2f;
 	}
-	p.register {
+	div.utility p.register {
 		right: 20px;
 	}
-	p.login {
+	div.utility p.login {
 		right: 110px;
 	}
 	div.nav_bar {
@@ -46,9 +42,13 @@ div.utility {
 		padding: 0;
 	}
 	#nav_bar li {
+		width: 25%;
 		float: left;
 		letter-spacing: 0.1em;
 		list-style-type:none;
+		background-color: #120c2f;
+		border: 4px solid #120c2f;
+		box-sizing: border-box;
 	}
 	#nav_bar li a, .dropbtn {
 		display: inline-block;
@@ -57,13 +57,12 @@ div.utility {
 		cursor: pointer;
 		text-align: middle;
 		border-radius: 5px;
-		border: 4px solid #120c2f;
 		font-weight: bold;
 		text-transform: uppercase;
 		min-width: 283px;
 	}
 	
-	#nav_bar li a:hover, .dropdown:hover .dropbtn {
+	#nav_bar li a:hover, .dropdown:hover {
 		color: #120c2f;
 		background-color: #f8f8ff;
 		width: 100%;
@@ -72,10 +71,10 @@ div.utility {
 	#nav_bar li a {
 		display: block;
 		text-align: center;
-		background-color: #120c2f;
 		color: #f8f8ff;
 		width: 100%;
 		padding: 14px 16px;
+		box-sizing: border-box;
 	}
 	
 	#nav_bar li.dropdown {
@@ -88,9 +87,12 @@ div.utility {
 	
 	#nav_bar .dropdown-content {
 		/*holds actual dropdown menu*/
+		background-color: #120c2f;
 		display: none;
 		position: absolute;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		width: 100%;
+		box-sizing: border-box;
 		/*makes width of dropdown content as wide as the button*/
 	}
 	#nav_bar.dropdown-content a {
@@ -101,9 +103,8 @@ div.utility {
 	}
 	
 	#nav_bar .dropdown-content a:hover {
-		background-color: #E6E6FA;
-		padding: 10px;
-		}
+		background-color: #ECEFF1;
+	}
 	
 	#nav_bar .dropdown:hover .dropdown-content {
 		display: block;
