@@ -1,5 +1,6 @@
 <html>
 <head>
+	<title>Quizzes</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="mod_v_r.css" />
 </head>
@@ -26,6 +27,13 @@
  <br>Summary of the different methods of managing projects<br><br><br></p>
  <p><b>Software Security</b><br>
  <br>Discussing the potential security risks, approaches to handling security, principles and specific software issues<br><br></p>
+ </div>
+ </div>
+ <div class="big">
+ <form>
+ <button formaction="mod_all_quiz.php">All</button>
+ </form>
+ </div>
  </div>
 </body>
 <footer>

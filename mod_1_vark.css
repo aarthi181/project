@@ -17,11 +17,6 @@ img.img2 {
 img.img3 {
 	float: center;
 }
-audio {
-	color: white;
-	background-color: black;
-	width: 400px;
-}
 div.card {
   position: relative;
   float: center;
@@ -40,6 +35,7 @@ div.card__front, div.card__back {
   padding: 7.5px;
   color: white;
   text-align: center;
+  
 }
 
 div.card__front, div.card__back {
@@ -49,18 +45,27 @@ div.card__front, div.card__back {
           transition: transform 0.3s;
 }
 
+
 div.card__front {
-  background-color: #424242;
+  background-color: #616161;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 200px;
 }
 
 div.card__back {
-	line-height: 200px;
-  background-color: #616161;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
+}
+
+div.special .card {
+	width: 40%;
+	float: left;
+}
+
+div.special .card__front,div.special .card__back {
+	width: 100%;
+	box-sizing: border-box;
 }
 
 div.card.effect__hover:hover .card__front {
@@ -72,13 +77,15 @@ div.card.effect__hover:hover .card__back {
   -webkit-transform: rotateY(0);
           transform: rotateY(0);
 }
+
 .carousel {
     position: relative;
     width: 50%;
-	height: 100px;
+	height: 175px;
     overflow: hidden;
 	border-radius: 5px;
 	margin: 10px;
+	display: block;
 }
 
 .carousel .item {
@@ -145,7 +152,7 @@ div.card.effect__hover:hover .card__back {
 
 .carousel .controls .btn {
     display: inline-block;
-    background-color: #fff;
+    background-color: #FAFAFA;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 5px;
@@ -158,6 +165,7 @@ div.card.effect__hover:hover .card__back {
 
 .carousel .controls .btn:hover {
     opacity: 1.0;
+	/*CHANGE COLOUR HERE*/
 }
 
 .carousel input[type="checkbox"] {
@@ -166,26 +174,26 @@ div.card.effect__hover:hover .card__back {
 }
 
 /* colours */
+.col {
+	background-color: #616161;
+}
 
 .col1 {
-	background-color: #7D26CD;
+	background-color: #5C687B;
 }
 
 .col2 {
-	background-color: #551A8B;
+	background-color: #8E99AB;
 }
 
 .col3 {
-	background-color: #9370DB;
+	background-color: #C6CCD5;
 }
 
 .col4 {
-	background-color: #AB82FF;
+	background-color: #8E99AB;
 }
 
 .col5 {
-	background-color: #9F79EE;
-}
-.ss, .sd, .sv, .se {
-	top: 200px;
+	background-color: #5C687B;
 }

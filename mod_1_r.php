@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Module 1: Introduction and Definitions</title>
+	<title>Module 1: Read/Write</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type+"text/css" href="mod_v_r.css" />
 	<link rel="stylesheet" type+"text/css" href="mod_1_vark.css" />
@@ -11,7 +11,7 @@
 	</div>
 	<div class="main">
 		<h1>Module #1</h1>
-		<h2>Introduction and Definitions</h2>
+		<h1>Introduction and Definitions</h1>
 		<p class="def">IEEE defines Software Engineering as &rdquo;the application of a systematic disciplined quantifiable approach to the development, operation and maintenance of software.&rdquo;</p>
 		<p>Some issues that are encountered when developing software include:
 			<ul>

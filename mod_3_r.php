@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Module 3: Software Process Activities</title>
+	<title>Module 3: Read/Write</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type+"text/css" href="mod_v_r.css" />
 	<link rel="stylesheet" type+"text/css" href="mod_3_vark.css" />
@@ -11,8 +11,8 @@
 	</div>
 	<div class="main">
 		<h1>Module #3</h1>
-		<h2>Software Process Activities</h2>
-		<h3>Requirements Engineering</h3>
+		<h1>Software Process Activities</h1>
+		<h2>Requirements Engineering</h2>
 		<p class="un">This is about communicating with the customer.
 		The objective is to arrive at a written agreement describing the functionality of the software to be developed, which is referred to as the specification.
 		The activities of this stage of the development life cycle are among the most difficult, but are also the most important.</p>
@@ -22,7 +22,7 @@
 		Many tools are used at this stage to increase the confidence in understanding the customer's requirements, including rapid protoyping, user scenarios and functions or feature lists.
 		Modeling and design tools being brought into this phase is not unusual. It is also characterised by lengthy meething between the developer and customer.</p>
 		
-		<h3>Requirements Analysis and Modelling</h3>
+		<h2>Requirements Analysis and Modelling</h2>
 		<p>This is done to define the operational characteristics of the software. Its main goals are the following:
 			<ul>
 				<li>behavioural description of customer requirements emphasising the <i>what</i> over the <i>how</i>.</li>
@@ -32,19 +32,19 @@
 		</p>
 		<p>The following subactivities are identified using this same method:</p>
 			<ul>
-				<li><b>Domain Analysis</b></li>
+				<li><h3>Domain Analysis</h3></li>
 					<ul>
 						<li>Reusability is an important goal in software development as it reduces development costs, increases reliability and reduces development time.</li>
 						<li>Domain Analysis is the process of identifying patterns that can be reused.</li>
 						<li>These patterns can be any common functions or features that have the potential for broad use across an application domain.</li>
 						<li>This is typically a class of problem such as financial, medical or aerospace; however the broader the reuse, the better.</li>
 					</ul>
-				<li><b>Data Modelling</b></li>
+				<li><h3>Data Modelling</h3></li>
 					<ul>
 						<li>Analysis modelling sometimes begins with the identification of all the data objects that are to be processed in the system and the relationships between these objects.</li>
 						<li>Data modelling is used for large database and information systems applications.</li>
 					</ul>
-				<li><b>Object Oriented Analysis</b></li>
+				<li><h3>Object Oriented Analysis</h3></li>
 					<ul>
 						<li>The object-oriented (OO) approach to analysis represents the latest 'paradigm shift' in analysis methodology and is epitomised by the Java language at the implementation stage.</li>
 						<p>Some factors that make this approach popular have been mentioned below:
@@ -66,7 +66,7 @@
 						It has become an industry standard for OO development.
 						Click <a href="http://www.uml.org">here</a> for more details.</li>
 					</ul>
-				<li><b>Scenario-based modelling</b></li>
+				<li><h3>Scenario-based modelling</h3></li>
 					<ul>
 						<li>End-user involvement in a software project is critical to its success.</li>
 						<li>Scenario-based modelling provides mechanisms for capturing information on how end-users desire to interact with the system.</li>
@@ -74,18 +74,18 @@
 						<li>The dynamics of these use-cases can be represented in UML activity diagrams similar to flow charts.</li>
 						<li>More complex interactions can be captured in UML swimlane diagrams that can model concurrent activities.</li>
 					</ul>
-				 <li><b>Flow oriented Modelling</b></li>
+				 <li><h3>Flow oriented Modelling</h3></li>
 					<ul>
 						<li>The input-process-output data flow diagrams (DFD) continue to be a very popular analysis modelling tool and can be used to augment UML diagrams.</li>
 						<li>Data flow can be modeled in a hierarchal fashion with DFDs with higher level context diagrams being refined with greater detailed DFDs at lower levels.</li>
 					</ul>
-				<li><b>Dynamic Modelling</b></li>
+				<li><h3>Dynamic Modelling</h3></li>
 					<ul>
 						<li>After static data and attribute relationships have been established, behavioural models can be created to represent the system response to external events.</li>
 						<li>Use-cases can be used to identify events and UML sequence diagrams can be used to model how events trigger transitions from one object to another.</li>
 					</ul>
 			</ul>
-		<h3>Architectural Engineering and Design</h3>
+		<h2>Architectural Engineering and Design</h2>
 		<p class="un">The design activity is the bridge between the software requirements and analysis models, and deliverable product construction.
 		Design is the process of producing the 'blueprint' for the coding and testing.
 		It also establishes software quality. The results of design activities are representations which can be assessed for quality.</p>
@@ -100,15 +100,15 @@
 		</p>
 		<p>The following design concepts have been helpful in achieving software quality:</p>
 		<ul>
-			<li><b>Abstraction</b></li>
+			<li><h3>Abstraction</h3></li>
 				<ul>
 					<li>When developing an architectual design of a complex system, many levels of abstraction are needed to describe the system.</li>
 					<li>Higher levels contain fewer details and lower levels provide increasingly more system information.</li>
 					<li>Procedural abstractions contain instructions but suppress details. Data abstractions refer to data objects and their properties.</li>
 				</ul>
-			<li><b>Modularity</b></li>
+			<li><h3>Modularity</h3></li>
 				<p>The strategy of designing a system as a collection of integrated modules is necessary for system understanding.</p>
-			<li><b>Information Hiding</b></li>
+			<li><h3>Information Hiding</h3></li>
 				<ul>
 					<li>Many architectual designs are possible for a given project.</li>
 					<li>Application of the principle of information hiding in the development a modularization is known to increase quality is defined by the FRUPS attributes.</li>
@@ -116,27 +116,27 @@
 					<li>Module interfaces are designed to communicate only information that is essential to invoking the functionality of the module.</li>
 					<li>Careful application of this principle pays large dividends during the testing and maintenance phases of the life of the system.</li>
 				</ul>
-			<li><b>Functional Independence</b></li>
+			<li><h3>Functional Independence</h3></li>
 				<ul>
 					<li>Modules that are designed to be functionally independent and have simple interfaces with the remaining system are known to be easier to develop, test and maintain.</li>
 					<li>Two criteria for assessing independence are cohesion and coupling, measures of singleness of function and intermodule connectivity, respectively.</li>
 					<li>High cohesion and low coupling contribute to higher quality.</li>
 				</ul>
-			<li><b>Refinement</b></li>
+			<li><h3>Refinement</h3></li>
 				<p>The design process is sometimes called a top-down step-wise refinement of the top level system abstraction to successive lower levels of abstraction by the application of the above modularization principles. Modules are created by hierarchal decomposition. </p>
-			<li><b>Refactoring</b></li>
+			<li><h3>Refactoring</h3></li>
 				<p>This activity is usually specific to agile methods. It refers to the internal redesign or restructuring of a component or subsystem in ways that improve its quality and performance.</p>
-			<li><b>Design and Reuse of Patterns</b></li>
+			<li><h3>Design and Reuse of Patterns</h3></li>
 				<ul>
 					<li>As with other more mature engineering disciplines, design decisions should be approached with the mindset that design patterns used in the past should be considered first rather than proceeding with a design derived from the uniqueness of the requirements of the particular project.</li>
 					<li>If patterns of the past do not seem to be suitable, creating new ones should be the next level of consideration and contributing to the pattern library for the use of future projects. Design patterns range from the architectural level down to component detail design.</li>
 				</ul>
-			<li><b>Component Level Design</b></li>
+			<li><h3>Component Level Design</h3></li>
 				<ul>
 					<li>This describes the data structures, interfaces and algorithms.</li>
 					<li>It can be represented in a programming language, but is often described in some other intermediate representation such as a program design language (PDL) for conventional module design and the Object Constraint Language (OCL) in the object-oriented design world.</li>
 				</ul>
-			<li><b>User Interface Design</b></li>
+			<li><h3>User Interface Design</h3></li>
 				<ul>
 					<li>A common failure of software projects is to spend too little time communicating with the user.</li>
 					<li>It is easy for software experts to fall into the subconscious trap of “knowing what is good for the user”.  What may seem to be “clearly good for the user” is all too frequently not the case from the perspective of the user themselves.</li>
@@ -151,7 +151,7 @@
 					</ul>
 				</p>
 		</ul>
-		<h3>Software Testing</h3>
+		<h2>Software Testing</h2>
 			<ul>
 				<li>After the software system is coded into a deliverable product, testing strategies are used to validate system requirements.</li>
 				<li>Testing strategies are designed to detect errors in the system.</li>
@@ -161,13 +161,13 @@
 				<li>Testing usually proceeds in two phases, first at the component level sometimes called unit testing.  Unit testing is followed by integration testing in which increasingly larger groups of components are tested culminating in the total system.  Unit testing is usually done by the developer and integration testing by an independent test group.</li>
 				<li>Testing strategies for conventionally designed software differ somewhat from those for object-oriented systems.</li>
 			</ul>
-		<p class="un"><b>Conventional software:</b><br>
+		<p><h3>Conventional software:</h3>
 		Unit testing focuses on execution paths through component program logic with the goal of maximizing error detection by path coverage; whereas integration testing usually involves input and output values.</p>
-		<p class="un"><b>Object-oriented software:</b><br>
-		Unit testing is done with classes, whose definition involves not only internal program logic but also attributes and operations as well as communication and collaboration.  Operations must be tested in the context of a class. Two approaches to integration testing of object-oriented systems are common, thread-based and use-based testing.  The thread-based approach tests the set of classes that respond to a given system input or event.  Use-based testing begins with by testing classes that are relatively independent of all others and continues in stages with each stage defined by the addition of a layer of dependent classes until the entire system is encompassed. </p>
+		<p><h3>Object-oriented software:</h3>
+		Unit testing is done with classes, whose definition involves not only internal program logic but also attributes and operations as well as communication and collaboration.  Operations must be tested in the context of a class. Two approaches to integration testing of object-oriented systems are common, thread-based and use-based testing.  The thread-based approach tests the set of classes that respond to a given system input or event.  Use-based testing begins with by testing classes that are relatively independent of all others and continues in stages with each stage defined by the addition of a layer of dependent classes until the entire system is encompassed.<br>
 		<p>After unit and integration testing, the entire system is tested in accordance with customer requirements.  This final testing phase is usually called validation testing and includes alpha and beta tests.  Alpha tests are performed at the developer site and beta tests occur later at end user sites.  Final release of the software is scheduled after the beta tests are complete. </p>
 		
-		<h3>Product Metrics for Software</h3>
+		<h2>Product Metrics for Software</h2>
 		<p class="un">The use of objective measures of software development products as an empirical measure of quality is somewhat controversial in the software engineering community.  Some say that our lack of basic understanding of software justifies delaying the development and use of such metrics.  However, many metrics are available to help assess and guide analysis, design, source code development and testing. </p>
 		<p>Some examples are given below:
 			<ul>

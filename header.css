@@ -23,6 +23,8 @@ div.utility {
 		display: block;
 		min-height: 20px;
 	}
+	
+	
 	div.utility p.login, a {
 		color: #120c2f;
 	}

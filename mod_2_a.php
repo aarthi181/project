@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Module 2: Software Process Models</title>
+	<title>Module 2: Auditory</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type+"text/css" href="mod_v_r.css" />
 	<link rel="stylesheet" type+"text/css" href="mod_2_vark.css" />
@@ -12,19 +12,19 @@
 	</div>
 	<div class="main">
 		<h1>Module #2</h1>
-		<h2>Software Process Models</h2>
-		<h3>The Waterfall Model</h3>
+		<h1>Software Process Models</h1>
+		<h2>The Waterfall Model</h2>
 		<p><audio controls>
 			<source src="/audio/mod_2/it_is.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
 		</p>
-		<h3>Incremental Process Models</h3>
+		<h2>Incremental Process Models</h2>
 		<p><audio controls>
 			<source src="/audio/mod_2/this_builds.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<h3>Evolutionary Process Models</h3>
+		<h2>Evolutionary Process Models</h2>
 		<p><audio controls>
 			<source src="/audio/mod_2/these_models.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
@@ -34,17 +34,17 @@
 			<source src="/audio/mod_2/in_the.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
-		<h3>Clean Room Software Engineering</h3>
+		<h2>Clean Room Software Engineering</h2>
 		<p><audio controls>
 			<source src="/audio/mod_2/this_model.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
-		<h3>Aspect-Oriented Software Development (AOSD) </h3>
+		<h2>Aspect-Oriented Software Development (AOSD) </h2>
 		<p><audio controls>
 			<source src="/audio/mod_2/aosd.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
-		<h3>Agile Development</h3>
+		<h2>Agile Development</h2>
 		<p><audio controls>
 			<source src="/audio/mod_2/this_is.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
@@ -66,6 +66,7 @@
 			<button formaction="mod_2_k.php">K</button>
 		</form>
 	<p class="quiz_link"><a href="mod_2_quiz.php">Quiz</a></p>
+	</div>
 </body>
 <footer>
 	<?php include 'footer.php'; ?>

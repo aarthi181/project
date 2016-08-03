@@ -1,5 +1,6 @@
 <html>
 <head>
+	<title>Audio Resources</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="mod_v_r.css" />
 </head>

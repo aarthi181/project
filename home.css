@@ -3,16 +3,18 @@ h1 {
 	font-size: 3em;
 	font-weight: bold;
 	text-decoration: none;
+	color: #120c2f;
 	font: bold Optima, Arial, sans-serif;
 }
 h1 a {
 	font: bold italic 0.458333333333333em Optima, Arial, sans-serif;
-	color: #546E7A; /*dark grey*/
+	color: #5C687B; /*dark grey*/
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 }
 h2 {
-	color: purple;
+	color: #24185e;
+	font-size: 1.5em;
 }
 	#main a:link, a:visited {text-decoration: none}
 	#main a:focus, a:hover, a:active {text-decoration:none;}
@@ -41,7 +43,7 @@ div.VARK_buttons {
 
 div.VARK_buttons button {
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 75px;
 	height: 75px;
 	margin: 5px;
@@ -52,7 +54,7 @@ div.VARK_buttons button {
 }
 
 div.VARK_buttons button:hover {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 }

@@ -27,10 +27,10 @@
 	</div>
 	<div class="VARK_buttons">
 		<form>
-			<button formaction="mod_1_v.php">V</button>
-			<button formaction="mod_1_a.php">A</button>
-			<button formaction="mod_1_r.php">R</button>
-			<button formaction="mod_1_k.php">K</button>
+			<button formaction="v_strategies.php">V</button>
+			<button formaction="a_strategies.php">A</button>
+			<button formaction="r_strategies.php">R</button>
+			<button formaction="k_strategies.php">K</button>
 		</form>
 		</div>
 		<div id="main">

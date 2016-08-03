@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Module 4: Software Project Management</title>
+	<title>Module 4: Auditory</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type+"text/css" href="mod_v_r.css" />
 	<link rel="stylesheet" type+"text/css" href="mod_4_vark.css" />
@@ -12,25 +12,25 @@
 	</div>
 	<div class="main">
 		<h1>Module #4</h1>
-		<h2>Software Project Management</h2>
+		<h1>Software Project Management</h1>
 		<p><audio controls>
 			<source src="/audio/mod_4/standard.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
 		
-		<h3>People Capability Maturity Model (P-CMM)</h3>
+		<h2>People Capability Maturity Model (P-CMM)</h2>
 		<p><audio controls>
 			<source src="/audio/mod_4/framework.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
 		
-		<h3>Project Estimation</h3>
+		<h2>Project Estimation</h2>
 		<p><audio controls>
 			<source src="/audio/mod_4/proj_est.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
 		
-		<h3>Risk Management</h3>
+		<h2>Risk Management</h2>
 		<p><audio controls>
 			<source src="/audio/mod_4/risk_man.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
@@ -53,6 +53,7 @@
 			<button formaction="mod_4_k.php">K</button>
 		</form>
 	<p class="quiz_link"><a href="mod_4_quiz.php">Quiz</a></p>
+	</div>
 </body>
 <footer>
 	<?php include 'footer.php'; ?>

@@ -7,7 +7,7 @@ div.footer {
 	display: inline-block;
 	margin: 10 0 0 0;
 	padding: 0;
-	border: 0;
+	border-top: 2px solid black;
 }
 p.copyright {
 	font-size: smaller;

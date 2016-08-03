@@ -10,7 +10,7 @@
 	</div>
 	<div class="main">
 		<h1>Module #1</h1>
-		<h2>Introduction and Definitions</h2>
+		<h1>Introduction and Definitions</h1>
 		<p class="def">IEEE defines Software Engineering as the application of a systematic disciplined quantifiable approach to the development, operation and maintenance of software.</p>
 		<p>Some issues that are encountered when developing software include:
 			<ul>

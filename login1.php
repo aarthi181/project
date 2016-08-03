@@ -1,11 +1,4 @@
-<html>
-  <head>
-    <title>Login</title> 
-	<?php include 'header.php'; ?>   
-    <link rel="stylesheet" href="login.css">
-  </head>
-  <body>
-  <?php 
+<?php 
 
     // First we execute our common code to connection to the database and start the session 
     require("common.php"); 
@@ -113,36 +106,15 @@
         } 
     } 
      
-?>
-	<div class="wrapper">
-		<div class="container">
-			<h1>Welcome</h1>
-			
-			<form action="login.php" method="post">
-				<input type="text" placeholder="Username" name="username" value="<?php echo $submitted_username; ?>"required>
-				<input type="password" placeholder="Password" name="password" value="" required>
-				<button type="reset" id="reset_button">Reset</button>
-				<button type="submit" id="login_button">Login</button>
-			</form>
-		</div>
-		
-		<ul class="bg-bubbles">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="js/index.js"></script>
-	</body>
-  <footer>
-	<?php include 'footer.php'; ?>
-  </footer>
-</html>
+?> 
+<h1>Login</h1> 
+<form action="login1.php" method="post"> 
+    Username:<br /> 
+    <input type="text" name="username" value="<?php echo $submitted_username; ?>" /> 
+    <br /><br /> 
+    Password:<br /> 
+    <input type="password" name="password" value="" /> 
+    <br /><br /> 
+    <input type="submit" value="Login" /> 
+</form> 
+<a href="register.php">Register</a>

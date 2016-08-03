@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Module 3: Software Process Activities</title>
+	<title>Module 3: Auditory</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type+"text/css" href="mod_v_r.css" />
 	<link rel="stylesheet" type+"text/css" href="mod_3_vark.css" />
@@ -12,113 +12,114 @@
 	</div>
 	<div class="main">
 		<h1>Module #3</h1>
-		<h2>Software Process Activities</h2>
-		<h3>Requirements Engineering</h3>
+		<h1>Software Process Activities</h1>
+		<h2>Requirements Engineering</h2>
 		<p><audio controls>
 			<source src="/audio/mod_3/req_eng.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<h3>Requirements Analysis and Modelling</h3>
+		<br><br>
+		<h2>Requirements Analysis and Modelling</h2>
 		<p><audio controls>
 			<source src="/audio/mod_3/req_ana.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
 		<p>The following subactivities are identified using this same method:</p>
-		<br><b>Domain Analysis</b>
+		<h3>Domain Analysis</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/dom_ana.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Data Modelling</b>
+		<h3>Data Modelling</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/data_mod.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Object-Oriented Analysis</b>
+		<h3>Object-Oriented Analysis</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/oo_ana.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Scenario-based modelling</b>
+		<h3>Scenario-based modelling</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/scen_mod.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Flow oriented Modelling</b>
+		<h3>Flow oriented Modelling</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/flow_mod.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Dynamic Modelling</b>
+		<h3>Dynamic Modelling</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/dyn_mod.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		
-		<h3>Architectural Engineering and Design</h3>
+		<br><br>
+		<h2>Architectural Engineering and Design</h2>
 		<p><audio controls>
 			<source src="/audio/mod_3/arch_eng.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
 		<p>The following design concepts have been helpful in achieving software quality:</p>
-		<br><b>Abstraction</b>
+		<h3>Abstraction</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/ab.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Modularity</b>
+		<h3>Modularity</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/modu.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Information Hiding</b>
+		<h3>Information Hiding</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/info_hiding.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Functional Independence</b>
+		<h3>Functional Independence</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/func_ind.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Refinement and Refactoring</b>
+		<h3>Refinement and Refactoring</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/refi_refa.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Design and Reuse of Patterns</b>
+		<h3>Design and Reuse of Patterns</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/des_n_reu.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Component Level Design</b>
+		<h3>Component Level Design</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/comp_lev.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>User Interface Design</b>
+		<h3>User Interface Design</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/user_int.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		
-		<h3>Software Testing</h3>
+		<br><br>
+		<h2>Software Testing</h2>
 		<p><audio controls>
 			<source src="/audio/mod_3/soft_test.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio></p>
-		<br><b>Conventional software:</b>
+		<h3>Conventional software:</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/conv_soft.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		<br><b>Object-oriented software:</b>
+		<h3>Object-oriented software:</h3>
 		<p><audio controls>
 			<source src="/audio/mod_3/oo_soft.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
-		
-		<h3>Product Metrics for Software</h3>
+		<br><br>
+		<h2>Product Metrics for Software</h2>
 		<p><audio controls>
 			<source src="/audio/mod_3/prod_met.m4a" type="audio/mp3">
 			Your browser does not support the audio element.
@@ -140,6 +141,7 @@
 			<button formaction="mod_3_k.php">K</button>
 		</form>
 	<p class="quiz_link"><a href="mod_3_quiz.php">Quiz</a></p>
+	</div>
 </body>
 <footer>
 	<?php include 'footer.php'; ?>

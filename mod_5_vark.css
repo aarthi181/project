@@ -1,8 +1,3 @@
-audio {
-	color: white;
-	background-color: black;
-	width: 400px;
-}
 img {
 	float: center;
 }
@@ -53,14 +48,13 @@ div.card__front, div.card__back {
 }
 
 div.card__front {
-  background-color: #424242;
+  background-color: #616161;
   font-weight: bold;
   font-size: 1.5em;
   line-height: 200px;
 }
 
 div.card__back {
-  background-color: #616161;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
@@ -147,7 +141,7 @@ div.card.effect__hover:hover .card__back {
 
 .carousel .controls .btn {
     display: inline-block;
-    background-color: #fff;
+    background-color: #FAFAFA;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 5px;
@@ -168,23 +162,26 @@ div.card.effect__hover:hover .card__back {
 }
 
 /* colours */
+.col {
+	background-color: #616161;
+}
 
 .col1 {
-	background-color: #7D26CD;
+	background-color: #5C687B;
 }
 
 .col2 {
-	background-color: #551A8B;
+	background-color: #8E99AB;
 }
 
 .col3 {
-	background-color: #9370DB;
+	background-color: #C6CCD5;
 }
 
 .col4 {
-	background-color: #AB82FF;
+	background-color: #8E99AB;
 }
 
 .col5 {
-	background-color: #9F79EE;
+	background-color: #5C687B;
 }

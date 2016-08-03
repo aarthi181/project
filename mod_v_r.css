@@ -5,8 +5,9 @@
 /*all pages formatting*/
 div.nav_links a {
 	font-size: 1.25em;
-	color: blue;
+	color: grey;
 	padding: 0px 5px 0px 2.5px;
+	font-weight: bold;
 }
 h1 {
 	font-size: 2em;
@@ -14,27 +15,28 @@ h1 {
 	margin: 0px;
 	border: 0px;
 	padding-top: 10px;
+	color: #120c2f;
 }
 h2 {
-	color: purple;
+	color: #24185e;
 	font-size: 1.5em;
 }
 h3 {
-	color: orange;
+	color: #36248d;
 	font-size: 1em;
 }
 h4 {
-	color: pink;
+	color: #4803bc;
 	font-size: 0.5em;
 }
 div.main p a {
 	font-weight: bold;
 	color: #2F4F4;
 }
-div.main ul {
+div.main ul, .special ul {
 	list-style-type: circle;
 }
-div.main li {
+div.main li, .special li {
 	padding: 5px;
 }
 div.main {
@@ -50,6 +52,12 @@ div.main img {
 	float: center;
 }
 
+audio {
+	color: #546E7A;
+	background-color: #292443;
+	width: 400px;
+}
+
 /***********************************************************Main pages*/
 
 div.module_buttons, div.VARK_buttons, div.resource_buttons, div.mini_VARK_buttons, div.tiy_buttons {
@@ -60,7 +68,7 @@ div.module_buttons, div.VARK_buttons, div.resource_buttons, div.mini_VARK_button
 div.module_buttons button {
 	top: 20px;
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 250px;
 	height: 250px;
 	margin: 5px;
@@ -68,8 +76,21 @@ div.module_buttons button {
 	font-size: 175%;
 	background-color: #e4e0f7;
 }
-div.module_buttons button:hover {
-	background-color: #B0BEC5;
+
+div.big button {
+	top: 20px;
+	border-radius: 5px;
+	color: #5C687B;
+	width: 1305px;
+	height: 125px;
+	margin: 5px;
+	display: inline-block;
+	font-size: 175%;
+	background-color: #e4e0f7;
+}
+
+div.module_buttons button:hover, div.big button:hover {
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 	
@@ -91,7 +112,7 @@ div.text p {
 div.VARK_buttons button {
 	top: 20px;
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 300px;
 	height: 200px;
 	margin: 0 10 0 10;
@@ -100,7 +121,7 @@ div.VARK_buttons button {
 	background-color: #e4e0f7;
 }
 div.VARK_buttons button:hover {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 }
@@ -115,7 +136,7 @@ div.ques h2 a {
 	padding: 0px 5px 0px 5px;
 	text-decoration: none;
 	font: bold italic 2em Optima, Arial, sans-serif;
-	color: #546E7A; /*dark grey*/
+	color: #5C687B; /*dark grey*/
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 }
@@ -124,7 +145,7 @@ div.ques h2 a {
 div.resources_buttons button {
 	top: 20px;
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 300px;
 	height: 200px;
 	margin: 10px;
@@ -133,7 +154,7 @@ div.resources_buttons button {
 	background-color: #e4e0f7;
 }
 div.resources_buttons button:hover {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 }
@@ -143,7 +164,7 @@ div.resources_buttons button:hover {
 div.tiy_buttons button {
 	top: 20px;
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 500px;
 	height: 250px;
 	margin: 10px;
@@ -153,7 +174,7 @@ div.tiy_buttons button {
 
 }
 div.tiy_buttons button:hover {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 }
@@ -178,9 +199,13 @@ div.mini_VARK_buttons {
 	height: 120%;
 }
 
+div.mini_VARK_buttons p {
+	text-align: center;
+}
+
 div.mini_VARK_buttons button {
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 75px;
 	height: 75px;
 	margin: 5px;
@@ -191,28 +216,28 @@ div.mini_VARK_buttons button {
 }
 
 div.mini_VARK_buttons button:hover {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 }
 
 div.mini_VARK_buttons button.v {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	color: white;
 }
 
 div.mini_VARK_buttons button.a {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	color: white;
 }
 
 div.mini_VARK_buttons button.r {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	color: white;
 }
 
 div.mini_VARK_buttons button.k {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	color: white;
 }
 
@@ -259,7 +284,7 @@ div.c h2, div.t h2 {
 /* Software Development Resources buttons */
 div.module_buttons_s button {
 	border-radius: 5px;
-	color: #546E7A;
+	color: #5C687B;
 	width: 125px;
 	height: 125px;
 	margin: 5px;
@@ -268,7 +293,7 @@ div.module_buttons_s button {
 	background-color: #e4e0f7;
 }
 div.module_buttons_s button:hover {
-	background-color: #B0BEC5;
+	background-color: #C6CCD5;
 	cursor: pointer;
 	color: white;
 }

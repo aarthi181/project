@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>#2 Quiz</title>
+	<title>Module 2: Quiz</title>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="quiz.css" />
 </head>
