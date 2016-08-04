@@ -186,17 +186,28 @@
         die("Redirecting to login.php"); 
     } 
      
-?> 
-<h1>Register</h1> 
-<form action="register.php" method="post"> 
-    Username:<br /> 
-    <input type="text" name="username" value="" /> 
-    <br /><br /> 
-    E-Mail:<br /> 
-    <input type="text" name="email" value="" /> 
-    <br /><br /> 
-    Password:<br /> 
-    <input type="password" name="password" value="" /> 
-    <br /><br /> 
-    <input type="submit" value="Register" /> 
-</form>
+?>
+<html>
+<head>
+	<title>Register</title>
+	<?php include 'header.php'; ?>
+</head>
+<body>
+	<div class="main">
+		<h1>Register</h1> 
+		<form action="register.php" method="post"> 
+			Username:<br /> 
+			<input type="text" name="username" value="" /> 
+			<br /><br /> 
+			E-Mail:<br /> 
+			<input type="text" name="email" value="" /> 
+			<br /><br /> 
+			Password:<br /> 
+			<input type="password" name="password" value="" /> 
+			<br /><br /> 
+			<input type="submit" value="Register" /> 
+		</form>
+	</div>
+</body>
+<footer><?php include 'footer.php'; ?>
+</footer>

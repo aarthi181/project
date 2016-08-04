@@ -7,38 +7,38 @@ body {
 body ::-webkit-input-placeholder {
   /* WebKit browsers */
   font-family: 'Source Sans Pro', sans-serif;
-  color: white;
+  color: #5C687B;
   font-weight: 300;
 }
 body :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   font-family: 'Source Sans Pro', sans-serif;
-  color: white;
+  color: #5C687B;
   opacity: 1;
   font-weight: 300;
 }
 body ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   font-family: 'Source Sans Pro', sans-serif;
-  color: white;
+  color: #5C687B;
   opacity: 1;
   font-weight: 300;
 }
 body :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   font-family: 'Source Sans Pro', sans-serif;
-  color: white;
+  color: #5C687B;
   font-weight: 300;
 }
 .wrapper {
-  background: #0c292f;
-  background: -webkit-linear-gradient(top left, #120c2f 0%, #f8f8ff 100%);
-  background: linear-gradient(to bottom right, #120c2f 0%, #f8f8ff 100%);
+  background: #5C687B;
+  background: -webkit-linear-gradient(top left, #120c2f 100%, #C6CCD5 0%);
+  background: linear-gradient(to bottom right, #C6CCD5 0%, #120c2f 100%);
   position: absolute;
   margin-top: 5px;
+  width: auto;
   left: 25%;
   right: 25%;
-  width: auto;
   height: auto;
 }
 h1 {
@@ -73,8 +73,8 @@ form input {
      -moz-appearance: none;
           appearance: none;
   outline: 0;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
   width: auto;
   border-radius: 3px;
   padding: 10px 15px;
@@ -82,28 +82,29 @@ form input {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: white;
+  color: #120c2f;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
   font-weight: 300;
 }
 form input:hover {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
 }
 form input:focus {
-  background-color: white;
+  background-color: f8f8ff;
   width: 300px;
-  color: #89dffb;
 }
+
 form button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   outline: 0;
-  background-color: white;
+  background-color: #f8f8ff;
   border: 0;
   padding: 10px 15px;
-  color: #89dffb;
+  color: #120c2f;
   border-radius: 3px;
   width: 125px;
   cursor: pointer;
@@ -113,7 +114,7 @@ form button {
           transition-duration: 0.25s;
 }
 form button:hover {
-  background-color: #f5f7f9;
+  background-color: white;
 }
 .bg-bubbles {
   position: absolute;
@@ -227,5 +228,5 @@ form button:hover {
 }
 footer {
 	position: absolute;
-	bottom: 2px;
+	bottom: 0px;
 }

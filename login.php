@@ -1,11 +1,4 @@
-<html>
-  <head>
-    <title>Login</title> 
-	<?php include 'header.php'; ?>   
-    <link rel="stylesheet" href="login.css">
-  </head>
-  <body>
-  <?php 
+<?php 
 
     // First we execute our common code to connection to the database and start the session 
     require("common.php"); 
@@ -114,6 +107,13 @@
     } 
      
 ?>
+<html>
+  <head>
+    <title>Login</title> 
+	<?php include 'header.php'; ?>   
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
 	<div class="wrapper">
 		<div class="container">
 			<h1>Welcome</h1>

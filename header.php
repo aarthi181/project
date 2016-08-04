@@ -5,8 +5,8 @@
 <div class="line">
 </div>
 	<p><a href="index.php"><img src="logo.gif" alt="S.E. VARK" width="140" height="150" /></a></p><br>
-		<p class="login"><a class="button" href="login.php"class="loginbtn">Login</a></p>
-		<p class="register"><a class="button" href="register.php" class="registerbtn">Register</a></p>
+		<p class="login"><a href="login.php"class="loginbtn">Login</a></p>
+		<p class="register"><a href="register.php" class="registerbtn">Register</a></p>
 </div>
 	<div id="nav_bar">
 	<ul>
