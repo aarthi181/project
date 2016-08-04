@@ -34,22 +34,21 @@ body :-ms-input-placeholder {
   background: #5C687B;
   background: -webkit-linear-gradient(top left, #120c2f 100%, #C6CCD5 0%);
   background: linear-gradient(to bottom right, #C6CCD5 0%, #120c2f 100%);
-  position: absolute;
-  margin-top: 5px;
-  width: auto;
-  left: 25%;
-  right: 25%;
-  height: auto;
+  position: relative;
+  margin: 5px auto 0 auto;
+  width: 50%;
+  height: 450px;
 }
 h1 {
 	font-size: 40px;
 	text-align: center;
+	padding-bottom: 20px
 }
 
 .container {
   max-width: 600px;
   margin: 0;
-  padding: 50px;
+  padding: 125px;
   height: auto;
   text-align: center;
 }
@@ -131,12 +130,17 @@ form button:hover {
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
+  bottom: -225px;
   -webkit-animation: square 25s infinite;
   animation: square 25s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
+
+.r li {
+  bottom: -190px;
+}
+
 .bg-bubbles li:nth-child(1) {
   left: 10%;
 }
@@ -225,9 +229,4 @@ form button:hover {
     -webkit-transform: translateY(-700px) rotate(600deg);
             transform: translateY(-700px) rotate(600deg);
   }
-}
-footer {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
 }

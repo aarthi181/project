@@ -19,12 +19,22 @@
     // We can display the user's username to them by reading it from the session array.  Remember that because 
     // a username is user submitted content we must use htmlentities on it before displaying it to the user. 
 ?> 
-
-
-Welcome <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?>,<br><blockquote>To navigate your personalised stuff, click the vertical menu below!</blockquote><br /> 
-<a href="memberlist.php">Memberlist</a><br /> 
-<a href="edit_account.php">Edit Account</a><br /> 
-<a href="logout.php">Logout</a>
-<!--my Account page
-	add your own files on each of the resources pages
-	vertical nav bar w/ About Me, My Content, My Achievements as sections->
+<html>
+<head>
+	<title>Register</title>
+	<?php include 'header.php'; ?>
+	<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<div class="main">
+		<h1>Welcome <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?>,<br><blockquote><p>To navigate your personalised stuff, click the vertical menu below!</blockquote><br /></p>
+		<a href="memberlist.php">Memberlist</a><br /> 
+		<a href="edit_account.php">Edit Account</a><br /> 
+		<a href="logout.php">Logout</a>
+		<!--my Account page
+			add your own files on each of the resources pages
+			vertical nav bar w/ About Me, My Content, My Achievements as sections-->
+	</div>
+</body>
+<footer><?php include 'footer.php'; ?>
+</footer>

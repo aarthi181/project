@@ -9,6 +9,10 @@ div.nav_links a {
 	padding: 0px 5px 0px 2.5px;
 	font-weight: bold;
 }
+div.l a {
+	left: 0;
+	width: auto;
+}
 h1 {
 	font-size: 2em;
 	font: bold Optima, Arial, sans-serif;

@@ -112,11 +112,16 @@
     <title>Login</title> 
 	<?php include 'header.php'; ?>   
     <link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="mod_v_r.css">
   </head>
   <body>
+  <div class="nav_links l">
+		<a href="login.php">Login</a>
+	</div>
 	<div class="wrapper">
 		<div class="container">
 			<h1>Welcome</h1>
+			
 			
 			<form action="login.php" method="post">
 				<input type="text" placeholder="Username" name="username" value="<?php echo $submitted_username; ?>"required>
@@ -139,8 +144,6 @@
 			<li></li>
 		</ul>
 	</div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="js/index.js"></script>
 	</body>
   <footer>
 	<?php include 'footer.php'; ?>

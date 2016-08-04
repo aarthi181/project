@@ -191,23 +191,38 @@
 <head>
 	<title>Register</title>
 	<?php include 'header.php'; ?>
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="mod_v_r.css">
 </head>
 <body>
-	<div class="main">
-		<h1>Register</h1> 
-		<form action="register.php" method="post"> 
-			Username:<br /> 
-			<input type="text" name="username" value="" /> 
-			<br /><br /> 
-			E-Mail:<br /> 
-			<input type="text" name="email" value="" /> 
-			<br /><br /> 
-			Password:<br /> 
-			<input type="password" name="password" value="" /> 
-			<br /><br /> 
-			<input type="submit" value="Register" /> 
-		</form>
+  <div class="nav_links">
+		<a href="register.php">Register</a>
 	</div>
+	<div class="wrapper">
+		<div class="container">
+			<h1>Register</h1> 
+			<form action="register.php" method="post"> 
+				<input type="text" placeholder="E-mail" name="email" value="" required/> 
+				<input type="text" placeholder="Username" name="username" value="" required/> 
+				<input type="password" placeholder="Password" name="password" value="" required/>
+				<button type="reset" id="reset_button">Reset</button>
+				<button type="submit" id="register_button">Register</button> 
+			</form>
+			</div>
+			
+			<ul class="bg-bubbles r">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 </body>
 <footer><?php include 'footer.php'; ?>
 </footer>
