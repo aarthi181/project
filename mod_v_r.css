@@ -10,8 +10,7 @@ div.nav_links a {
 	font-weight: bold;
 }
 div.l a {
-	left: 0;
-	width: auto;
+	float: left;
 }
 h1 {
 	font-size: 2em;

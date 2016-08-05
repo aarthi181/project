@@ -5,14 +5,16 @@ div.line {
 	padding: 0;
 	margin: 0;
 	background-color: #0c081f;
+	z-index:99;
 }
 div.utility { 
 		top: 10px;
 		background: linear-gradient(to bottom right, #f8f8ff 0%, #263238 100%);
 		margin-bottom: 5px;
 		height: 190px;
+		z-index: 99;
 	}
-	div.utility p.login, .register {
+	div.utility .login, .register {
 		position: absolute;
 		top: 0px;
 		padding: 12px 14px;
@@ -25,8 +27,8 @@ div.utility {
 	}
 	
 	
-	div.utility p.login, a {
-		color: #120c2f;
+	div.utility a {
+		color: #0c081f;
 	}
 	div.utility p.register {
 		right: 20px;

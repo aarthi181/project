@@ -195,7 +195,7 @@
 	<link rel="stylesheet" href="mod_v_r.css">
 </head>
 <body>
-  <div class="nav_links">
+  <div class="nav_links l">
 		<a href="register.php">Register</a>
 	</div>
 	<div class="wrapper">

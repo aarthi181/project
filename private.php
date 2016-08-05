@@ -21,19 +21,42 @@
 ?> 
 <html>
 <head>
-	<title>Register</title>
+	<title>My Account</title>
 	<?php include 'header.php'; ?>
-	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="my_account.css">
+	
 </head>
 <body>
+	<div class="nav_links">
+		<a href="my_account.php">My Account</a>
+	</div>
+	<?php include 'v_nav_bar.php'; ?>
+	<!--NEED TO REDESIGN THIS BIT SO THAT ITS IN A LIL BOX IN CSS ETC ETC-->
+	<div class="wrapper">
+	<div class="container">
+	<div class="design">
+	<h1>Welcome <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?>,</h1>
+	<br><blockquote><h2>To navigate through your personalised content, please use the vertical menu to the left!</blockquote><br /></h2>
+	</div></div>
+	
+	<ul class="bg-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+	</ul>
+		
+	</div>
 	<div class="main">
-		<h1>Welcome <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?>,<br><blockquote><p>To navigate your personalised stuff, click the vertical menu below!</blockquote><br /></p>
-		<a href="memberlist.php">Memberlist</a><br /> 
-		<a href="edit_account.php">Edit Account</a><br /> 
-		<a href="logout.php">Logout</a>
-		<!--my Account page
-			add your own files on each of the resources pages
-			vertical nav bar w/ About Me, My Content, My Achievements as sections-->
+	<p><a href="memberlist.php">Memberlist</a><br /> 
+	<a href="edit_account.php">Edit Account</a><br /> 
+	<a href="logout.php">Logout</a></p>
 	</div>
 </body>
 <footer><?php include 'footer.php'; ?>

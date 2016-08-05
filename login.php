@@ -1,4 +1,18 @@
-<?php 
+<html>
+  <head>
+    <title>Login</title> 
+	<?php include 'header.php'; ?>   
+    <link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="mod_v_r.css">
+  </head>
+  <body>
+  <div class="nav_links l">
+	<a href="login.php">Login</a>
+</div>
+	<div class="wrapper">
+		<div class="container">
+			<h1>Welcome</h1>
+			<?php 
 
     // First we execute our common code to connection to the database and start the session 
     require("common.php"); 
@@ -95,7 +109,8 @@
         else 
         { 
             // Tell the user they failed 
-            print("Login Failed."); 
+            
+			print("<font color=#f8f8ff size=4 face=Cambria>Login Failed.<br></font>"); 
              
             // Show them their username again so all they have to do is enter a new 
             // password.  The use of htmlentities prevents XSS attacks.  You should 
@@ -107,28 +122,13 @@
     } 
      
 ?>
-<html>
-  <head>
-    <title>Login</title> 
-	<?php include 'header.php'; ?>   
-    <link rel="stylesheet" href="login.css">
-	<link rel="stylesheet" href="mod_v_r.css">
-  </head>
-  <body>
-  <div class="nav_links l">
-		<a href="login.php">Login</a>
-	</div>
-	<div class="wrapper">
-		<div class="container">
-			<h1>Welcome</h1>
-			
-			
 			<form action="login.php" method="post">
 				<input type="text" placeholder="Username" name="username" value="<?php echo $submitted_username; ?>"required>
 				<input type="password" placeholder="Password" name="password" value="" required>
 				<button type="reset" id="reset_button">Reset</button>
 				<button type="submit" id="login_button">Login</button>
 			</form>
+			
 		</div>
 		
 		<ul class="bg-bubbles">
