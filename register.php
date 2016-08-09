@@ -3,7 +3,18 @@
     // First we execute our common code to connection to the database and start the session 
     require("common.php"); 
      
-    // This if statement checks to determine whether the registration form has been submitted 
+    if(!empty($_SESSION['user'])) 
+    { 
+        // If they are not, we redirect them to the login page. 
+        header("Location: private.php"); 
+         
+        // Remember that this die statement is absolutely critical.  Without it, 
+        // people can view your members-only content without logging in. 
+        die("Redirecting to private.php"); 
+    } else {
+	
+	
+	// This if statement checks to determine whether the registration form has been submitted 
     // If it has, then the registration code is run, otherwise the form is displayed 
     if(!empty($_POST)) 
     { 
@@ -184,7 +195,7 @@
         // is critical.  The rest of your PHP script will continue to execute and 
         // will be sent to the user if you do not die or exit. 
         die("Redirecting to login.php"); 
-    } 
+    } }
      
 ?>
 <html>

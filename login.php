@@ -22,7 +22,18 @@
     // to an empty value, which will be shown if the user has not submitted the form.
     $submitted_username = ''; 
      
-    // This if statement checks to determine whether the login form has been submitted 
+    if(!empty($_SESSION['user'])) 
+    { 
+        // If they are not, we redirect them to the login page. 
+        header("Location: private.php"); 
+         
+        // Remember that this die statement is absolutely critical.  Without it, 
+        // people can view your members-only content without logging in. 
+        die("Redirecting to private.php"); 
+    } else {
+	
+	
+	// This if statement checks to determine whether the login form has been submitted 
     // If it has, then the login code is run, otherwise the form is displayed 
     if(!empty($_POST)) 
     { 
@@ -119,7 +130,7 @@
             // http://en.wikipedia.org/wiki/XSS_attack 
             $submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8'); 
         } 
-    } 
+    } }
      
 ?>
 			<form action="login.php" method="post">

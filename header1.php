@@ -49,7 +49,7 @@ div.utility {
 	}
 	
 	#nav_bar li {
-		width: 20%;
+		width: 25%;
 		float: left;
 		letter-spacing: 0.1em;
 		list-style-type:none;
@@ -58,6 +58,22 @@ div.utility {
 		box-sizing: border-box;
 	}
 	
+	
+	<?php
+		
+		if(!empty($_SESSION['user'])){ 
+      echo '#nav_bar li {
+		width: 20%;
+		float: left;
+		letter-spacing: 0.1em;
+		list-style-type:none;
+		background-color: #120c2f;
+		border: 4px solid #120c2f;
+		box-sizing: border-box;
+	}'
+  }?>
+  
+  
 	#nav_bar li a, .dropbtn {
 		display: inline-block;
 		padding: 14px 16px;
@@ -67,6 +83,7 @@ div.utility {
 		border-radius: 5px;
 		font-weight: bold;
 		text-transform: uppercase;
+		min-width: 283px;
 	}
 	
 	#nav_bar li a:hover, .dropdown:hover {

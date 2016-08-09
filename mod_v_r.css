@@ -301,3 +301,69 @@ div.module_buttons_s button:hover {
 	color: white;
 }
 
+/*formatting for doc, pres, aud and vid pages*/
+
+div.container h1 {
+	text-align: center;
+	padding: 20px 0 12px 0;
+	margin: 0;
+}
+div.container h2 {
+	font-size: 16px;
+	text-align: center;
+	padding: 0 0 12px 0; 
+}
+
+div.container table {
+	background-color: #F3F3F3;
+	margin: 15px 0;
+	width: 500px;
+}
+
+div.container th {
+	background-color: #FE4902;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+div.container th small {
+	font-size: 9px; 
+}
+
+div.container td, th {
+	text-align: center;
+}
+
+div.container a {
+	text-decoration: none;
+}
+
+div.container td a {
+	color: #663300;
+	display: block;
+	padding: 5px 10px;
+}
+div.container th a {
+	padding-left: 0
+}
+
+
+}
+th:first-of-type {
+	padding-left: 35px;
+}
+
+
+
+tr:nth-of-type(odd) {
+	background-color: #E6E6E6;
+}
+
+tr:hover td {
+	background-color:#CACACA;
+}
+
+tr:hover td a {
+	color: #000;
+}

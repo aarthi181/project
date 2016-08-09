@@ -1,7 +1,7 @@
 div.v_nav_bar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 25px 0 0 0;
+    padding: 0 0 0 0;
     width: 25%;
     background-color: #f8f8ff;
 	position:fixed;
@@ -20,11 +20,11 @@ div.v_nav_bar li a {
 }
 
 div.v_nav_bar li a:hover {
-	background-color: #ECEFF1;
-	color:#120c2f;
+	background-color: grey;
+	color:#f8f8ff;
 }
 
 div.v_nav_bar .active {
-	background-color: #1e144e;
+	background-color: #120c2f;
 	color: #f8f8ff;
 }

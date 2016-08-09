@@ -5,8 +5,9 @@
 <div class="line">
 </div>
 	<p><a href="index.php"><img src="logo.gif" alt="S.E. VARK" width="140" height="150" /></a></p><br>
-		<p class="login"><a href="login.php"class="loginbtn">Login</a></p>
-		<p class="register"><a href="register.php" class="registerbtn">Register</a></p>
+	<p class="login"><a href="login.php" class="loginbtn">Login</a></p>
+	<p class="register"><a href="register.php" class="registerbtn">Register</a></p>';
+		
 </div>
 	<div id="nav_bar">
 	<ul>
@@ -43,6 +44,14 @@
 			<div class="dropdown-content">
 				<a href="quizzes.php">Quizzes</a>
 				<a href="exam_qs.php">Exam Questions</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="private.php" class="dropbtn">My Account</a>
+			<div class="dropdown-content">
+				<a href="about_me.php">About Me</a>
+				<a href="my_content.php">My Content</a>
+				<a href="my_achievements.php">My Achievements</a>
 			</div>
 		</li>
 	</ul>

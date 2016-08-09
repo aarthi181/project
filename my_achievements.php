@@ -14,24 +14,3 @@
         die("Redirecting to login.php"); 
     }
 ?>
-<html>
-<head>
-	<title>My Content</title>
-	<?php include 'header.php'; ?>
-	<link rel="stylesheet" href="my_account.css">
-	<link rel="stylesheet" href="v_nav_bar.css">
-</head>
-<body>
-	<div class="nav_links">
-		<a href="my_content.php">My Content</a>
-	</div>
-	<div class="v_nav_bar">
-	<ul>
-		<li><a class="active" href="about_me.php">About Me</a></li>
-		<li><a href="my_content.php">My Content</a></li>
-		<li><a href="my_achievements.php">My Achievements</a></li>
-		<li><a href="logout.php">Logout</a></li>
-	</ul>
-	</div>
-	</body>
-	<footer><?php include 'footer.php';?></footer>
